@@ -3,7 +3,7 @@ name = "celestine"
 version = "0.1.0"
 description = "Celestine is a Discord bot for management."
 authors = [
-    "Ismael Philipe <you@example.com>",
+    "Philipe Cerqueira <philipe.cerq@gmail.com>",
     "Matheus Souza <matheusouzadearaujo@gmail.com>"
 ]
 repository = "https://github.com/philipecerqueira/Celestine-Bot"
