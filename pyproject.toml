@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "celestine"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Celestine is a Discord bot for management."
+authors = [
+    "Ismael Philipe <you@example.com>",
+    "Matheus Souza <matheusouzadearaujo@gmail.com>"
+]
+repository = "https://github.com/philipecerqueira/Celestine-Bot"
+homepage = "https://github.com/philipecerqueira/Celestine-Bot"
 readme = "README.md"
+keywords = ["bot", "discord", "celestine"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
