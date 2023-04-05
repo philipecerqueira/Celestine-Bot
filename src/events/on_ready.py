@@ -1,6 +1,6 @@
-from src.config.discord import bot
+from src.config.discord import celestine
 
 
-@bot.event
+@celestine.event
 async def on_ready():
-    print(f'Logado: {bot.user}')
+    print(f'Logged: {celestine.user}')

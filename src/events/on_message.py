@@ -1,7 +1,7 @@
-from src.config.discord import bot
+from src.config.discord import celestine
 
 
-@bot.event
+@celestine.event
 async def on_message(message):
-    print(f'Message de {message.author}: {message.content}')
-    await bot.process_commands(message)
+    print(f'Message from {message.author}: {message.content}')
+    await celestine.process_commands(message)
