@@ -1,3 +1,5 @@
+import src.commands.create_thread
+import src.commands.delete_all_threads
 import src.commands.hello
 import src.events.on_message
 import src.events.on_ready
