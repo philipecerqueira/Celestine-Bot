@@ -14,4 +14,4 @@ async def on_ready():
     channel = get_discord_channel()
 
     if channel is not None:
-        await channel.send("I'm online, need me just call! ;D.\n If you don't know my commands use *!help*")
+        await channel.send("I'm online, need me just call! ;D.\n\nIf you don't know my commands use *!help*")
