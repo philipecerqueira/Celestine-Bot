@@ -6,7 +6,7 @@ async def create_thread(context, thread_name="", message=""):
     channel = context.channel
 
     if thread_name == "":
-        await channel.send("Por favor informe o nome da thread que deseja criar")
+        await channel.send("Please enter the name of the thread you want to create")
         return
 
     new_thread = await channel.create_thread(name=thread_name)

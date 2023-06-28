@@ -4,10 +4,11 @@ import json
 from datetime import datetime
 
 from ..commands.create_thread import create_thread
+from ..variables import time_zone
 
 
 async def check_schedule(context):
-    now = datetime.now()
+    now = datetime.now(time_zone)
 
     with open('schedule.json') as file:
         schedule_json = json.load(file)

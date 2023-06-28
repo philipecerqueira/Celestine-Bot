@@ -11,6 +11,6 @@ async def delete_all_threads(context):
     try:
         for thread in threads:
             await thread.delete()
-        await context.send('Todas as threads foram apagadas com sucesso.')
+        await context.send('All threads have been deleted successfully.')
     except:
-        await context.send('Ocorreu um erro ao tentar apagar as threads, verifique o log para mais informações')
+        await context.send('An error occurred while trying to delete threads, check the log for more information')

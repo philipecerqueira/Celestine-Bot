@@ -10,4 +10,4 @@ def update_json(data):
     with open('schedule.json', 'w') as file:
         json.dump(existing_json, file, indent=4)
 
-    return 'Arquivo schedule.json atualizado com sucesso.'
+    return 'Schedule.json file updated successfully.'

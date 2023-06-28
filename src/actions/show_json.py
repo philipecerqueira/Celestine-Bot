@@ -8,4 +8,4 @@ def show_json():
             print(json_data)
         return json_data
     except FileNotFoundError:
-        return 'O arquivo JSON não existe.'
+        return 'The JSON file does not exist.'

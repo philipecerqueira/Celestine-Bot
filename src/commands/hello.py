@@ -4,5 +4,5 @@ from src.config.discord import celestine
 @celestine.command()
 async def hello(message):
     await message.channel.send(
-        "Olá, você faz parte da turma? Caso não, venha fazer parte! :D"
+        "Hello! I'm Celestine, an intelligent assistant here on the server. I'm here to help and enhance your experience. If you don't know my commands use *!help*"
     )

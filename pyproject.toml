@@ -15,6 +15,7 @@ keywords = ["bot", "discord", "celestine"]
 python = "^3.10"
 discord = "^2.2.2"
 python-dotenv = "^1.0.0"
+pytz = "^2023.3"
 
 [build-system]
 requires = ["poetry-core"]
