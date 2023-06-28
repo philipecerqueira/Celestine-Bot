@@ -3,6 +3,12 @@ from src.config.discord import celestine
 
 @celestine.command()
 async def create_thread(context, thread_name="", message=""):
+    """
+    Creates a new thread with the specified name and message if want
+
+    Ex.: !create_thread thread_name message
+    """
+
     channel = context.channel
 
     if thread_name == "":
